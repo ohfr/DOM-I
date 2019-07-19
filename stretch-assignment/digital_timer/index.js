@@ -16,37 +16,38 @@ let intervalTimer;
 //**********Code for full timer***********
 
 
-//Start Button
+// Start Button
 
-const startBtn = document.createElement('button');
-startBtn.style.padding = '10px 20px 10px 20px';
-startBtn.style.marginLeft = '20px';
-startBtn.textContent = 'Start!';
-div.appendChild(startBtn);
-
-
-// Reset Button
-const resetBtn = document.createElement('button');
-resetBtn.style.padding = '10px 20px 10px 20px';
-resetBtn.style.marginLeft = '20px';
-resetBtn.textContent  = 'Reset!';
-div.appendChild(resetBtn);
+// const startBtn = document.createElement('button');
+// startBtn.style.padding = '10px 20px 10px 20px';
+// startBtn.style.marginLeft = '20px';
+// startBtn.textContent = 'Start!';
+// div.appendChild(startBtn);
 
 
-resetBtn.addEventListener('click', () => {
-    clearInterval(intervalTimer);
-    initTime = 0;
-    forthNum.textContent = '-';
-    thirdNum.textContent = '-';
-    startBtn.style.visibility = 'visible';
-    thirdNum.style.color = 'black';
-    forthNum.style.color  = 'black';
-})
+// // Reset Button
 
-startBtn.addEventListener('click', () => {
-    intervalTimer = setInterval(tenSecondTimer, 1000);
-    startBtn.style.visibility  = 'hidden';
-})
+// const resetBtn = document.createElement('button');
+// resetBtn.style.padding = '10px 20px 10px 20px';
+// resetBtn.style.marginLeft = '20px';
+// resetBtn.textContent  = 'Reset!';
+// div.appendChild(resetBtn);
+
+
+// resetBtn.addEventListener('click', () => {
+//     clearInterval(intervalTimer);
+//     initTime = 0;
+//     forthNum.textContent = '-';
+//     thirdNum.textContent = '-';
+//     startBtn.style.visibility = 'visible';
+//     thirdNum.style.color = 'black';
+//     forthNum.style.color  = 'black';
+// })
+
+// startBtn.addEventListener('click', () => {
+//     intervalTimer = setInterval(timer, 1000);
+//     startBtn.style.visibility  = 'hidden';
+// })
 
 
 
@@ -78,6 +79,9 @@ startBtn.addEventListener('click', () => {
 
 // const intervalTimer = setInterval(timer, 1000);
 
+
+
+
 // **********Code for 10 second timer***********
 
 
@@ -90,7 +94,7 @@ startBtn.textContent = 'Start!';
 div.appendChild(startBtn);
 
 
-// Reset Button
+// // Reset Button
 const resetBtn = document.createElement('button');
 resetBtn.style.padding = '10px 20px 10px 20px';
 resetBtn.style.marginLeft = '20px';
